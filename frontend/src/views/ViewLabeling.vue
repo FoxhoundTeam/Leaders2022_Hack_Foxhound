@@ -733,6 +733,7 @@ export default {
       const state = new dwv.io.State();
       const jsonData = state.fromJSON(this.annotations);
       state.apply(this.dwvApp, jsonData);
+      this.dwvApp.resetDisplay();
       // dwv.setDrawLineColour('Red');
       // console.log("layer group = ", this.dwvApp.getActiveLayerGroup());
     });
