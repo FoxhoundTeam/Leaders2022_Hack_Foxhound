@@ -345,20 +345,11 @@
   <!-- диалог генерации -->
 </template>
 
-<!-- <script type="text/javascript" src="../components/dwv-jqui/src/gui/infoController.js"></script>
-<script type="text/javascript" src="../components/dwv-jqui/src/gui/infoOverlay.js"></script> -->
 <script>
 import http from "@/http";
-// import dwvVue from 'dwv';
-// import dwvVue from '../components/dwv';
 
 import Vue from "vue";
-// import MdButton from "vue-material";
 import dwv from "dwv";
-// import dwvjq.gui.info.Controller from '../components/dwv-jqui/src/gui/infoController.js'
-// import {InfoController} from '../components/dwv-jqui/src/gui/infoController_copy.js'
-// import {dwvjq} from '../components/dwv-jqui/src/gui/infoOverlay.js'
-// import {dwvjq, startDwvjq} from '../components/dwv-jqui/src/dwv_jquiexport.js'
 
 // Vue.use(MdButton);
 
@@ -371,19 +362,6 @@ dwv.image.decoderScripts = {
   "jpeg-baseline": "assets/dwv/decoders/pdfjs/decode-jpegbaseline.js",
   rle: "assets/dwv/decoders/dwv/decode-rle.js",
 };
-
-// dwv.tool = {};
-
-// dwv.tool.colourMaps = {
-//     plain: dwv.image.lut.plain,
-//     invplain: dwv.image.lut.invPlain,
-//     rainbow: dwv.image.lut.rainbow,
-//     hot: dwv.image.lut.hot,
-//     hotiron: dwv.image.lut.hot_iron,
-//     pet: dwv.image.lut.pet,
-//     hotmetalblue: dwv.image.lut.hot_metal_blue,
-//     pet20step: dwv.image.lut.pet_20step
-//   };
 
 dwv.tool.defaultpresets = {};
 
